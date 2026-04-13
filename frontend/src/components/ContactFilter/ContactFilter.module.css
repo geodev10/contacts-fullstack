@@ -1,0 +1,13 @@
+.filterBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 20px;
+}
+
+.filterLabel {
+  font-weight: 500;
+}
+.filterInput {
+  width: 300px;
+}

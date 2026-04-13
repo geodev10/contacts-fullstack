@@ -1,0 +1,13 @@
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.tableHeader {
+  background-color: #0288d1;
+}
+
+.tableTitle {
+  font-weight: 900;
+  color: blueviolet;
+}

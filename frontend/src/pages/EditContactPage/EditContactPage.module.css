@@ -1,0 +1,28 @@
+.mainPage {
+  padding-top: 25px;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 15px;
+
+  font-weight: 500;
+  color: rgba(54, 3, 240, 0.747);
+  text-decoration: underline;
+}
+
+.formBox {
+  max-width: 500px;
+  padding-block: 30px;
+  padding-inline: 40px;
+  border: 3px solid black;
+
+  border-top-color: rgba(255, 0, 0, 0.45);
+  border-right-color: rgba(0, 0, 255, 0.45);
+  border-bottom-color: rgba(0, 128, 0, 0.5);
+  border-left-color: rgba(255, 166, 0, 0.45);
+
+  border-radius: 8px;
+}

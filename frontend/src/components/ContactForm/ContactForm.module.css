@@ -1,0 +1,13 @@
+.formSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}

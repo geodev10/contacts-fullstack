@@ -1,0 +1,19 @@
+.pageLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr 45px;
+  min-height: 100vh;
+
+  grid-template-areas:
+    "header"
+    "contenido"
+    "footer";
+}
+
+.content {
+  grid-area: contenido;
+}
+
+.footer {
+  grid-area: footer;
+}
